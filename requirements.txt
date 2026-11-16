@@ -1,0 +1,4 @@
+# Pinned so eval runs are reproducible.
+# Swap `anthropic` for whatever LLM client you use. The eval harness doesn't
+# depend on any specific provider — it just needs a `call_llm(prompt) -> str`.
+anthropic>=0.40.0
